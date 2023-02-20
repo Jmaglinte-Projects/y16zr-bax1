@@ -1,0 +1,23 @@
+[{
+  "_id": {
+    "$oid": "63f0a5d2f6ce1ce5ac6d4a42"
+  },
+  "name": "Engine",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676715474314"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63f0a5e0f6ce1ce5ac6d4a44"
+  },
+  "name": "Chassis",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676715488381"
+    }
+  },
+  "__v": 0
+}]

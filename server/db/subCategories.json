@@ -1,0 +1,589 @@
+[{
+  "_id": {
+    "$oid": "63f0b2dc129e5aac688ef6c6"
+  },
+  "name": "CYLINDER HEAD",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676718812118"
+    }
+  },
+  "category": {
+    "$oid": "63f0a5d2f6ce1ce5ac6d4a42"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63f0b2dc129e5aac688ef6c7"
+  },
+  "name": "CRANKSHAFT & PISTON",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676718812118"
+    }
+  },
+  "category": {
+    "$oid": "63f0a5d2f6ce1ce5ac6d4a42"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63f0b2dc129e5aac688ef6c8"
+  },
+  "name": "VALVE",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676718812118"
+    }
+  },
+  "category": {
+    "$oid": "63f0a5d2f6ce1ce5ac6d4a42"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63f0b2dc129e5aac688ef6c9"
+  },
+  "name": "CAMSHAFT & CHAIN",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676718812118"
+    }
+  },
+  "category": {
+    "$oid": "63f0a5d2f6ce1ce5ac6d4a42"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63f0b2dc129e5aac688ef6ca"
+  },
+  "name": "WATER PUMP",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676718812118"
+    }
+  },
+  "category": {
+    "$oid": "63f0a5d2f6ce1ce5ac6d4a42"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63f0b2dc129e5aac688ef6cb"
+  },
+  "name": "RADIATOR & HOSE",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676718812118"
+    }
+  },
+  "category": {
+    "$oid": "63f0a5d2f6ce1ce5ac6d4a42"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63f0b2dc129e5aac688ef6cc"
+  },
+  "name": "OIL PUMP",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676718812118"
+    }
+  },
+  "category": {
+    "$oid": "63f0a5d2f6ce1ce5ac6d4a42"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63f0b2dc129e5aac688ef6cd"
+  },
+  "name": "INTAKE",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676718812118"
+    }
+  },
+  "category": {
+    "$oid": "63f0a5d2f6ce1ce5ac6d4a42"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63f0b2dc129e5aac688ef6ce"
+  },
+  "name": "EXHAUST",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676718812118"
+    }
+  },
+  "category": {
+    "$oid": "63f0a5d2f6ce1ce5ac6d4a42"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63f0b2dc129e5aac688ef6cf"
+  },
+  "name": "CRANKCASE",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676718812118"
+    }
+  },
+  "category": {
+    "$oid": "63f0a5d2f6ce1ce5ac6d4a42"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63f0b2dc129e5aac688ef6d0"
+  },
+  "name": "CRANKCASE COVER 1",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676718812118"
+    }
+  },
+  "category": {
+    "$oid": "63f0a5d2f6ce1ce5ac6d4a42"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63f0b2dc129e5aac688ef6d1"
+  },
+  "name": "STARTER CLUTCH",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676718812118"
+    }
+  },
+  "category": {
+    "$oid": "63f0a5d2f6ce1ce5ac6d4a42"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63f0b2dc129e5aac688ef6d2"
+  },
+  "name": "CLUTCH",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676718812118"
+    }
+  },
+  "category": {
+    "$oid": "63f0a5d2f6ce1ce5ac6d4a42"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63f0b2dc129e5aac688ef6d3"
+  },
+  "name": "TRANSMISSION",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676718812118"
+    }
+  },
+  "category": {
+    "$oid": "63f0a5d2f6ce1ce5ac6d4a42"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63f0b2dc129e5aac688ef6d4"
+  },
+  "name": "SHIFT CAM & FORK",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676718812118"
+    }
+  },
+  "category": {
+    "$oid": "63f0a5d2f6ce1ce5ac6d4a42"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63f0b2dc129e5aac688ef6d5"
+  },
+  "name": "SHIFT SHAFT",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676718812118"
+    }
+  },
+  "category": {
+    "$oid": "63f0a5d2f6ce1ce5ac6d4a42"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63f0b454050e202ed53ef6b0"
+  },
+  "name": "FRAME",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676719188321"
+    }
+  },
+  "category": {
+    "$oid": "63f0a5e0f6ce1ce5ac6d4a44"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63f0b454050e202ed53ef6b1"
+  },
+  "name": "FENDER",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676719188321"
+    }
+  },
+  "category": {
+    "$oid": "63f0a5e0f6ce1ce5ac6d4a44"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63f0b454050e202ed53ef6b2"
+  },
+  "name": "SIDE COVER",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676719188321"
+    }
+  },
+  "category": {
+    "$oid": "63f0a5e0f6ce1ce5ac6d4a44"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63f0b454050e202ed53ef6b3"
+  },
+  "name": "REAR ARM & SUSPENSION",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676719188321"
+    }
+  },
+  "category": {
+    "$oid": "63f0a5e0f6ce1ce5ac6d4a44"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63f0b454050e202ed53ef6b4"
+  },
+  "name": "STEERING",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676719188321"
+    }
+  },
+  "category": {
+    "$oid": "63f0a5e0f6ce1ce5ac6d4a44"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63f0b454050e202ed53ef6b5"
+  },
+  "name": "FRONT FORK",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676719188321"
+    }
+  },
+  "category": {
+    "$oid": "63f0a5e0f6ce1ce5ac6d4a44"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63f0b454050e202ed53ef6b6"
+  },
+  "name": "FUEL TANK",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676719188321"
+    }
+  },
+  "category": {
+    "$oid": "63f0a5e0f6ce1ce5ac6d4a44"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63f0b454050e202ed53ef6b7"
+  },
+  "name": "SEAT",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676719188321"
+    }
+  },
+  "category": {
+    "$oid": "63f0a5e0f6ce1ce5ac6d4a44"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63f0b454050e202ed53ef6b8"
+  },
+  "name": "FRONT WHEEL",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676719188321"
+    }
+  },
+  "category": {
+    "$oid": "63f0a5e0f6ce1ce5ac6d4a44"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63f0b454050e202ed53ef6b9"
+  },
+  "name": "FRONT BRAKE CALIPER",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676719188321"
+    }
+  },
+  "category": {
+    "$oid": "63f0a5e0f6ce1ce5ac6d4a44"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63f0b454050e202ed53ef6ba"
+  },
+  "name": "REAR WHEEL",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676719188321"
+    }
+  },
+  "category": {
+    "$oid": "63f0a5e0f6ce1ce5ac6d4a44"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63f0b454050e202ed53ef6bb"
+  },
+  "name": "REAR BRAKE CALIPER",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676719188321"
+    }
+  },
+  "category": {
+    "$oid": "63f0a5e0f6ce1ce5ac6d4a44"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63f0b454050e202ed53ef6bc"
+  },
+  "name": "STEERING HANDLE & CABLE",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676719188321"
+    }
+  },
+  "category": {
+    "$oid": "63f0a5e0f6ce1ce5ac6d4a44"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63f0b454050e202ed53ef6bd"
+  },
+  "name": "FRONT MASTER CYLINDER",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676719188321"
+    }
+  },
+  "category": {
+    "$oid": "63f0a5e0f6ce1ce5ac6d4a44"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63f0b454050e202ed53ef6be"
+  },
+  "name": "STAND & FOOTREST",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676719188321"
+    }
+  },
+  "category": {
+    "$oid": "63f0a5e0f6ce1ce5ac6d4a44"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63f0b454050e202ed53ef6bf"
+  },
+  "name": "REAR MASTER CYLINDER",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676719188321"
+    }
+  },
+  "category": {
+    "$oid": "63f0a5e0f6ce1ce5ac6d4a44"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63f0b454050e202ed53ef6c0"
+  },
+  "name": "LEG SHIELD",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676719188321"
+    }
+  },
+  "category": {
+    "$oid": "63f0a5e0f6ce1ce5ac6d4a44"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63f0b454050e202ed53ef6c1"
+  },
+  "name": "GENERATOR",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676719188321"
+    }
+  },
+  "category": {
+    "$oid": "63f0a5e0f6ce1ce5ac6d4a44"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63f0b454050e202ed53ef6c2"
+  },
+  "name": "STARTING MOTOR",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676719188321"
+    }
+  },
+  "category": {
+    "$oid": "63f0a5e0f6ce1ce5ac6d4a44"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63f0b454050e202ed53ef6c3"
+  },
+  "name": "FLASHER LIGHT",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676719188321"
+    }
+  },
+  "category": {
+    "$oid": "63f0a5e0f6ce1ce5ac6d4a44"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63f0b454050e202ed53ef6c4"
+  },
+  "name": "METER",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676719188321"
+    }
+  },
+  "category": {
+    "$oid": "63f0a5e0f6ce1ce5ac6d4a44"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63f0b454050e202ed53ef6c5"
+  },
+  "name": "HEADLIGHT",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676719188321"
+    }
+  },
+  "category": {
+    "$oid": "63f0a5e0f6ce1ce5ac6d4a44"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63f0b454050e202ed53ef6c6"
+  },
+  "name": "TAILLIGHT",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676719188321"
+    }
+  },
+  "category": {
+    "$oid": "63f0a5e0f6ce1ce5ac6d4a44"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63f0b454050e202ed53ef6c7"
+  },
+  "name": "HANDLE SWITCH & LEVER",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676719188321"
+    }
+  },
+  "category": {
+    "$oid": "63f0a5e0f6ce1ce5ac6d4a44"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63f0b454050e202ed53ef6c8"
+  },
+  "name": "ELECTRICAL 1",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676719188321"
+    }
+  },
+  "category": {
+    "$oid": "63f0a5e0f6ce1ce5ac6d4a44"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63f0b454050e202ed53ef6c9"
+  },
+  "name": "ELECTRICAL 2",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676719188321"
+    }
+  },
+  "category": {
+    "$oid": "63f0a5e0f6ce1ce5ac6d4a44"
+  },
+  "__v": 0
+}]
