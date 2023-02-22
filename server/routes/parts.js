@@ -1,12 +1,13 @@
+
 import express from 'express';
 
-import { getSubCategories, createSubCategories } from '../controllers/subCategories.js';
+import { getParts, importParts } from '../controllers/parts.js';
 
 const router = express.Router();
 // import auth from "../middleware/auth.js";
 
-router.get('/', getSubCategories);
-router.post('/',  createSubCategories);
+router.get('/', getParts);
+router.post('/import',  importParts);
 // router.patch('/:id', auth, updatePost);
 // router.delete('/:id', auth, deletePost);
 // router.patch('/:id/likePost', auth, likePost);

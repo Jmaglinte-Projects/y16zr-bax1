@@ -40,3 +40,28 @@
 .read-the-docs {
   color: #888;
 }
+
+
+/* CUSTOM */
+
+.appForm {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
+	font-size: 14px;
+}
+
+.appForm .field {
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+	background-color: #F3FAFF;
+	padding: 20px;
+}
+
+.appForm label {
+	display: block;
+	margin: 0 auto 5px;
+	width: 100%;
+	text-align: left;
+}

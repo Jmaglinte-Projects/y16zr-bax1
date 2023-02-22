@@ -7,6 +7,7 @@ dotenv.config()
 
 import categoriesRoutes from './routes/categories.js';
 import subCategoriesRoutes from './routes/subCategories.js';
+import partsRoutes from './routes/parts.js';
 
 
 const app = express(); 
@@ -17,6 +18,7 @@ app.use(cors());
 
 app.use('/category', categoriesRoutes); 
 app.use('/sub-categories', subCategoriesRoutes);
+app.use('/part', partsRoutes);
 
 const CONNECTION_URL = process.env.LIVE === 'TRUE' ? process.env.ATLAS_URI : process.env.LOCAL_URI
 const PORT = process.env.PORT || 5000;

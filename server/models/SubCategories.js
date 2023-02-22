@@ -3,7 +3,7 @@ const { Schema } = mongoose;
 
 const subCategoriesSchema = mongoose.Schema({
     name: String,
-    posted: String,
+    poster: String,
     createdAt: {
         type: Date,
         default: new Date(),
@@ -11,6 +11,6 @@ const subCategoriesSchema = mongoose.Schema({
     category: { type: Schema.Types.ObjectId, ref: 'categories' },
 }, { collection: 'subCategories' })
 
-const subCategories = mongoose.model('SubCategories', subCategoriesSchema);
+const subCategories = mongoose.model('subCategories', subCategoriesSchema);
 
 export default subCategories;

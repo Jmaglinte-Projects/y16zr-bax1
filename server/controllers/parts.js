@@ -6,22 +6,36 @@ const router = express.Router();
 
 export const getParts = async (req, res) => { 
     try {
-        const Parts = await Parts.find();
+        const result = await Parts.find().populate({
+					path: 'subCategory', populate: { path: 'category' } 
+				});
         
-        res.status(200).json(Parts);
+        res.status(200).json(result);
     } catch (error) {
         res.status(404).json({ message: error.message });
     }
 }
 
-export const createSubCategories = async (req, res) => {
-    const Parts = req.body;
-    const newSubCategories = new Parts({ ...Parts, creator: req.userId, createdAt: new Date().toISOString() })
+export const importParts = async (req, res) => {
+    const { excelData } = req.body;
+		let finalData = [];
+		
+		excelData.forEach((e) => {
+			finalData = [...finalData, {
+				refNo: e?.refNo,
+				partNo: e?.partNo,
+				description: e?.description,
+				BAX1: e?.bax1,
+				remarks: e?.remarks,
+				subCategory: '63f0b454050e202ed53ef6c9'
+			}]
+		});
+ 
 
     try {
-        await newSubCategories.save();
+        const result = await Parts.insertMany(finalData);
 
-        res.status(201).json(newSubCategories);
+        res.status(201).json(result);
     } catch (error) {
         res.status(409).json({ message: error.message });
     }
