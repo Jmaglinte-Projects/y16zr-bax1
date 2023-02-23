@@ -1,0 +1,36 @@
+{
+	"compilerOptions": {
+		"target": "esnext",
+		"module": "commonjs",
+		"baseUrl": "src",
+		"paths": {
+			"Root/*": [
+				"./*"
+			],
+			"Assets/*": [
+				"./assets/*"
+			],
+			"Components/*": [
+				"./components/*"
+			],
+			"Hooks/*": [
+				"./hooks/*"
+			],
+			"Layout/*": [
+				"./layout/*"
+			],
+			"Routes/*": [
+				"./*/src/*"
+			],
+			"Views/*": [
+				"./views/*"
+			],
+		}
+	},
+	"include": [
+		"src/**/*"
+	],
+	"exclude": [
+		"node_modules"
+	]
+}
