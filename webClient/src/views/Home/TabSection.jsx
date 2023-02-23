@@ -13,7 +13,7 @@ const TabSection = () => {
   return (
 	<>
 		<Tabs aria-label="Basic tabs" defaultValue={0} sx={{ borderRadius: 'lg' }}>
-			<TabList variant="solid" color="primary">
+			<TabList variant="solid" sx={{ backgroundColor: '#708FFB'}}>
 				<Tab>Excel Import</Tab>
 				<Tab>Add Sub Category Poster</Tab>
 			</TabList>
