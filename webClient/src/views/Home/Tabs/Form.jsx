@@ -4,7 +4,7 @@ import FileBase64 from 'react-file-base64';
 import axios from 'axios';
 
 // project imports
-import FileInput from '../../components/FileInput';
+import FileInput from '../../../components/FileInput';
 
 function Form() {
 

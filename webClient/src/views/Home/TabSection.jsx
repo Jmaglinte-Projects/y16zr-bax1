@@ -6,7 +6,8 @@ import Tab from '@mui/joy/Tab';
 import TabPanel from '@mui/joy/TabPanel';
 
 
-import FormSection from './Form';
+import FormSection from './Tabs/Form';
+import SubCategoryForm from './Tabs/SubCategoryForm';
 
 const TabSection = () => {
   return (
@@ -14,13 +15,13 @@ const TabSection = () => {
 		<Tabs aria-label="Basic tabs" defaultValue={0} sx={{ borderRadius: 'lg' }}>
 			<TabList variant="solid" color="primary">
 				<Tab>Excel Import</Tab>
-				<Tab>...</Tab>
+				<Tab>Add Sub Category Poster</Tab>
 			</TabList>
 			<TabPanel value={0} sx={{ p: 2 }}>
 				<FormSection />
 			</TabPanel>
 			<TabPanel value={1} sx={{ p: 2 }}>
-				<b>Second</b> tab panel
+				<SubCategoryForm />
 			</TabPanel>
 		</Tabs>
 	</>

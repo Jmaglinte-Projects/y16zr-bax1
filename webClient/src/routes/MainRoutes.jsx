@@ -7,7 +7,6 @@ import MainLayout from '@/layout/MainLayout';
 // const ErrorPage = lazy(() => import('@/views/Error'));
 
 import Home from '@/views/Home';
-import Error from '@/views/Error';
 
 // ==============================|| MAIN ROUTING ||============================== //
 
@@ -15,10 +14,7 @@ const MainRoutes = {
     path: '/',
     element: <MainLayout />,
     children: [
-		{
-			path: '/',
-			element: <Home />
-		}, 
+		{ path: '/', element: <Home />, }, 
     ]
 };
 
