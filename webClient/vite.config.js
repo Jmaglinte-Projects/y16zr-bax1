@@ -4,10 +4,12 @@ import path from 'path';
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  	plugins: [react()],
+  	plugins: [react({
+		include: "**/*.jsx"
+	})],
 	resolve: {
 		alias: {
-		  'Root': path.resolve(__dirname, './src'),
+		  '@': path.resolve(__dirname, './src'),
 		  'Assets': path.resolve(__dirname, './src/assets'),
 		  'Components': path.resolve(__dirname, './src/components'),
 		  'Hooks': path.resolve(__dirname, './src/hooks'),

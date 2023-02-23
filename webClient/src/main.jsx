@@ -1,16 +1,21 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { BrowserRouter } from "react-router-dom";
-import App from 'Root/App'
+import { CssVarsProvider } from '@mui/joy/styles';
+import CssBaseline from '@mui/joy/CssBaseline';
+import App from '@/App'
 
 // style + asset
 import './index.css'
-import config from 'Root/config';
+import config from '@/config';
  
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
 		<BrowserRouter basename={config.basename}>
-			<App /> 
+			<CssVarsProvider>
+				<CssBaseline />
+				<App />
+			</CssVarsProvider>
 		</BrowserRouter>
   </React.StrictMode>,
 )

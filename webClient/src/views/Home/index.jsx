@@ -1,10 +1,10 @@
 import React from 'react'
-import FormSection from './Form';
+import TabSection from './TabSection';
 
 const index = () => {
 	return (
 		<>
-			<FormSection />
+			<TabSection />
 		</>
 	)
 }

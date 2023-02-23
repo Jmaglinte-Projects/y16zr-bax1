@@ -1,11 +1,10 @@
-import { useState } from 'react'
-
+import React from 'react';
 // style + assets
 import reactLogo from './assets/react.svg'
 import './App.css'
 
 // routing
-import Routes from 'Routes/routes';
+import Routes from '@/routes';
  
 function App() { 
   return (

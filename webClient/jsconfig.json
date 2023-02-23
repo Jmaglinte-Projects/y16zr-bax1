@@ -4,7 +4,7 @@
 		"module": "commonjs",
 		"baseUrl": "src",
 		"paths": {
-			"Root/*": [
+			"@/*": [
 				"./*"
 			],
 			"Assets/*": [
@@ -20,7 +20,7 @@
 				"./layout/*"
 			],
 			"Routes/*": [
-				"./*/src/*"
+				"src/routes/*"
 			],
 			"Views/*": [
 				"./views/*"

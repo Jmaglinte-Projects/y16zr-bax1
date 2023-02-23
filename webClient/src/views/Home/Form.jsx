@@ -14,10 +14,10 @@ function Form() {
 	});
 
 	const handleSubmit = async () => {
-		const result = await axios.post(`http://localhost:5050/part/import`, { ...formData })
-				.then(res => {
-					console.log(res.data);
-				})
+		await axios.post(`http://localhost:5050/part/import`, { ...formData })
+		.then(res => {
+			console.log(res.data);
+		})
 	}
 
 	const handleFileChange = (event) => {
