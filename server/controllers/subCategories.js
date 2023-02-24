@@ -1,5 +1,5 @@
 import express from 'express';
-
+import mongoose from 'mongoose';
 import SubCategories from '../models/SubCategories.js';
 
 const router = express.Router();
@@ -84,18 +84,18 @@ export const createSubCategories = async (req, res) => {
 //     }
 // }
 
-// export const updateCategorie = async (req, res) => {
-//     const { id } = req.params;
-//     const { title, message, creator, selectedFile, tags, likes } = req.body;
+export const updateSubCategory = async (req, res) => {
+    const { id } = req.params;
+    const { poster } = req.body;
     
-//     if (!mongoose.Types.ObjectId.isValid(id)) return res.status(404).send(`No Categorie with id: ${id}`);
+    if (!mongoose.Types.ObjectId.isValid(id)) return res.status(404).send(`No Subcategory with an id: ${id}`);
 
-//     const updatedCategorie = { creator, title, message, tags, selectedFile, _id: id, likes };
+    const subCategory = {  _id: id, poster };
 
-//     await CategorieMessage.findByIdAndUpdate(id, updatedCategorie, { new: true });
+    const updatedSubCategory = await SubCategories.findByIdAndUpdate(id, subCategory, { new: true });
 
-//     res.json(updatedCategorie);
-// }
+    res.json(updatedSubCategory);
+}
 
 // export const deleteCategorie = async (req, res) => {
 //     const { id } = req.params;

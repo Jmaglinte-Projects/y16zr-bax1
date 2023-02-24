@@ -16,9 +16,9 @@ export const subCategorySlice = createSlice({
         // CREATE: (state, action) => {
         //     return [...state, action.payload.result];
         // },
-        // UPDATE: (state, action) => {
-        //     return state.map((packing) => (packing.packing_id === action.payload.result.packing_id ? action.payload.result : packing));
-        // },
+        UPDATE: (state, action) => {
+            return state.map((subCategory) => (subCategory._id === action.payload._id ? action.payload : subCategory));
+        },
         // DELETE: (state, action) => {
         //     return state.filter((packing) => packing.packing_id !== action.payload);
         // }
@@ -26,8 +26,6 @@ export const subCategorySlice = createSlice({
 });
 
 // Action creators are generated for each case reducer function
-export const { FETCH
-	// , CREATE, UPDATE, DELETE 
-} = subCategorySlice.actions;
+export const { FETCH, UPDATE } = subCategorySlice.actions;
 
 export default subCategorySlice.reducer;

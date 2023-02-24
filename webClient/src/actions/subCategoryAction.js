@@ -1,5 +1,5 @@
 import * as api from '@/api/subCategoryApi';
-import { FETCH } from '@/reducers/subCategorySlice';
+import { FETCH, UPDATE } from '@/reducers/subCategorySlice';
 
 export const getSubCategories = () => async (dispatch) => {
     try {
@@ -11,6 +11,16 @@ export const getSubCategories = () => async (dispatch) => {
     }
 };
 
+export const updateSubCategory = (id, formData) => async (dispatch) => {
+	try {
+        const { data } = await api.updateSubCategory(id, formData);
+
+        dispatch(UPDATE(data));
+        alert('Success');
+	} catch (error) {
+		console.log(error);
+	}
+}
 
 
 

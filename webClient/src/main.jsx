@@ -10,13 +10,14 @@ import { store } from './store';
 
 // style + asset
 import './index.css'
+import themes from './themes';
 import config from '@/config';
- 
+
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
 		<Provider store={store}>
 			<BrowserRouter basename={config.basename}>
-				<CssVarsProvider>
+				<CssVarsProvider theme={themes}>
 					<CssBaseline />
 					<App /> 
 				</CssVarsProvider>

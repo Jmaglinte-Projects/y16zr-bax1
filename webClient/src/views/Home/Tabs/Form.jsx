@@ -57,10 +57,7 @@ function Form() {
 						<label htmlFor="excelFile">Excel File</label>
 						{<FileInput onChange={handleFileChange} name="excelFile" id="excelFile" />}
 					</div>
-					<div className='field'>
-						<label htmlFor="subCategoryPoster">Sub Category Banner</label>
-						{<FileBase64 name="subCategoryPoster" onDone={(e) => setFormData({...formData, poster: e.base64})} />}
-					</div>
+					 
 					<button onClick={handleSubmit} disabled >UPLOAD</button>
 				</div>
 			</div>

@@ -14,6 +14,6 @@ API.interceptors.request.use((req) => {
 // MODEL
 export const fetchSubCategories = () => API.get('/sub-categories');
 // export const createModel = (newModel) => API.post('/maintenance/composite/models', newModel);
-// export const updateModel = (id, updateModel) => API.patch(`/maintenance/composite/models/${id}`, updateModel);
+export const updateSubCategory = (id, update) => API.patch(`/sub-categories/${id}`, update);
 // export const deleteModel = (id) => API.delete(`/maintenance/composite/models/${id}`);
  
